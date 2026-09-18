@@ -14,5 +14,5 @@ class Customer_hierarchy:
             print(discount)
 
 
-customer_type = Customer_hierarchy("Premium")
+customer_type = Customer_hierarchy(input("Enter the customer type: "))
 customer_type.display_customer_discount()
